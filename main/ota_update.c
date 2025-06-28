@@ -6,7 +6,7 @@
 #include "esp_log.h"
 #include "ota_update.h"
 
-#define OTA_URL "http://192.168.177.136:8000/mqtt_ota_project_AfterOTA.bin"
+#define OTA_URL "http://<YOUR IP>:8000/mqtt_ota_project_AfterOTA.bin"
 static const char *TAG = "OTA";
 
 void start_ota_update(void) {

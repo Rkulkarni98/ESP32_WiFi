@@ -9,8 +9,8 @@
 #include "esp_err.h"
 #include "uart.h"
 
-#define WIFI_SSID "Galaxya50"//"Revati"
-#define WIFI_PASS "12345678@"//"123456789"
+#define WIFI_SSID "Username"
+#define WIFI_PASS "Password"
 #define MAX_RETRY 5
 
 #define WIFI_CONNECTED_BIT BIT0
